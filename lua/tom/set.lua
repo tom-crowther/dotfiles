@@ -18,12 +18,22 @@ vim.opt.incsearch = true
 
 vim.opt.termguicolors = true
 
-vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
+vim.opt.scrolloff = 12
+vim.opt.signcolumn = 'yes'
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
+vim.opt.timeoutlen = 300
 
 vim.opt.colorcolumn = "80"
 
 vim.g.mapleader = " "
+
+vim.o.clipboard = 'unnamedplus'
+
+vim.o.ignorecase = true
+vim.o.smartcase = true
+
+vim.o.breakindent = true
+
+
